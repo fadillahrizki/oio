@@ -1,0 +1,418 @@
+/* 
+Theme Name: oIo Theme
+Description: Just a Theme
+*/
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-item ion-icon {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.nav-item {
+  display: flex;
+}
+
+#dd-room {
+  width: 300px;
+  left: 57%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.explore {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.explore h4 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.explore h6 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.explore img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+.explore::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 80%));
+}
+
+.explore-body {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 0;
+  padding: 12px;
+  z-index: 5;
+}
+
+.vl {
+  border-left: 1px solid white;
+  padding-left: 40px;
+}
+.vr {
+  border-right: 1px solid white;
+  padding-right: 40px;
+}
+
+.sosmed {
+  text-decoration: none;
+  color: white;
+}
+
+.sosmed ion-icon {
+  margin: auto;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  padding: 0 12px;
+}
+
+.sosmed:hover {
+  color: rgb(179, 179, 179);
+}
+
+.owl-stage-outer {
+  padding: 0;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 40%;
+}
+
+.owl-prev {
+  position: absolute;
+  left: 0;
+  background: #fff !important;
+  font-size: 30px !important;
+  text-align: center !important;
+  box-shadow: 0 4px 10px grey;
+  width: 50px;
+  height: 50px;
+}
+
+.owl-next {
+  position: absolute;
+  right: 0;
+  background: #fff !important;
+  font-size: 30px !important;
+  text-align: center !important;
+  box-shadow: 0 4px 10px grey;
+  width: 50px;
+  height: 50px;
+}
+
+.owl-next span,
+.owl-prev span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(40%);
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+  color: red !important;
+}
+
+.search-field {
+  background: linear-gradient(to right, #d2164f, #dd263d);
+}
+
+.search-field h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.search-field input {
+  font-size: 16px;
+  padding: 19px 50px 19px 16px;
+  font-weight: bold;
+}
+
+.search-field input::placeholder {
+  font-weight: normal;
+}
+
+.search-field .btn-outline-light {
+  font-weight: bold;
+  font-size: 12px;
+  border: 2px solid white;
+  padding: 8px;
+}
+
+.search-field .btn-success {
+  background: #1ab64f;
+  padding: 14px 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.search-field .btn-success:hover,
+#search .btn-success:hover {
+  background: #267440;
+}
+
+.search-field h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#search input {
+  font-family: Open Sans, sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+#search .btn-success {
+  background: #1ab64f;
+  padding: 12px 40px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#main-content h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+}
+
+.hotel h4 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.hotel p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.hotel .badge {
+  background: #1ab64f !important;
+}
+
+.hotel ion-icon {
+  font-size: 14px;
+}
+
+.hotel h3,
+#detail h3 {
+  color: #ee2e24;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.hotel .discount,
+#detail .discount {
+  font-size: 14px !important;
+}
+
+.hotel .discount span,
+#detail .discount span {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.hotel .discount b,
+#detail .discount b {
+  color: #ed9a00;
+}
+
+.hotel .room,
+#detail .room {
+  font-size: 12px;
+  color: grey;
+}
+
+.hotel .btn-success,
+#detail .btn-success {
+  border: 1px solid #1ab64f;
+  background: #1ab64f;
+}
+
+.hotel .btn-success:hover,
+#detail .btn-success:hover {
+  background: #267440;
+}
+
+footer h2 {
+  font-weight: bold;
+}
+
+footer h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#dd-room .btns span {
+  cursor: pointer;
+}
+
+#dd-room .btns span:hover {
+  color: #1ab64f;
+}
+
+#dd-room .items button {
+  padding: 8px 18px;
+  font-size: 18px;
+  border: 1px solid grey;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+#dd-room .items button:hover {
+  background: grey;
+}
+
+#search-content .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#search-content h6 {
+  font-weight: bold;
+}
+
+#search-content .form-check {
+  margin-bottom: 12px;
+}
+
+#search-content .form-check-label {
+  font-size: 14px;
+}
+
+#single h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#single h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#single .desc {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 12px 0;
+}
+
+#single .near {
+  font-size: 16px;
+  color: grey;
+  margin: 0;
+}
+
+#detail p {
+  font-size: 14px;
+}
+
+#detail {
+  margin-top: 24px;
+}
+
+#single .choose-room h5 {
+  font-weight: bold;
+  display: inline;
+}
+
+#single .choose-room span {
+  text-decoration: line-through;
+  color: grey;
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+#single .card-header {
+  padding: 6px 24px;
+}
+
+#single .card-header ion-icon {
+  font-size: 12px;
+}
+
+#single .card-header h5 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1000px) {
+  .cf2 {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  #search .form-control,
+  #search .btn,
+  .search-field .form-control,
+  .search-field .btn {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  #dd-room {
+    left: 0;
+  }
+
+  #search-content .title {
+    font-size: 18px;
+  }
+
+  .hotel h4 {
+    font-size: 16px;
+  }
+
+  .hotel p {
+    font-size: 12px;
+  }
+
+  .vl,
+  .vr {
+    border: none;
+  }
+}
